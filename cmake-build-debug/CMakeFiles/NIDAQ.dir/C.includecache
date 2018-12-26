@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/NIDAQmx.h
+
+C:/Users/hirokazu/Documents/C/NIDAQ/src/main.c
+stdio.h
+-
+time.h
+-
+math.h
+-
+sys/time.h
+-
+windows.h
+-
+string.h
+-
+NIDAQmx.h
+-
+
